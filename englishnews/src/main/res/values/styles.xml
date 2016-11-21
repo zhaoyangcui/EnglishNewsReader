@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/ActionBar.Solid</item>
+        <item name="homeAsUpIndicator">@drawable/com_btn</item>
+        <item name="titleTextStyle">@style/ActionBar_TitleStyle</item>
+    </style>
+    <style name="ActionBar.Solid" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_background</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid</item>
+    </style>
+         <style name="ActionBar_TitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+</style>
+values-v14/styles.xml
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+  <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/ActionBar.Solid</item>
+        <item name="android:homeAsUpIndicator">@drawable/com_btn</item>
+    </style>
+    <style name="ActionBar.Solid" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_background</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid</item>
+        <item name="android:titleTextStyle">@style/ActionBar_TitleStyle</item>
+    </style>
+     <style name="ActionBar_TitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>

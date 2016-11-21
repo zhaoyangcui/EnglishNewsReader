@@ -1,0 +1,17 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="layout.ContentFragment">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/img_view"
+        android:layout_width="275dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:id="@+id/tv_img_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</fragment>
